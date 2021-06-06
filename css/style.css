@@ -111,8 +111,26 @@ body {
 .company_info_title {
   display: inline-block;
   vertical-align: top;
+  width: 100px;
 }
 .company_info_text {
   display: inline-block;
   vertical-align: top;
+}
+.title {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 22vh;
+}
+.logo {
+  height: 140px;
+  margin: 0 auto;
+  line-height: 140px;
+}
+.copy {
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 0.1em;
 }
