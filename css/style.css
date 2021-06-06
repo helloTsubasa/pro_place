@@ -1,0 +1,118 @@
+body {
+  background-color: #ffffff;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP",
+    "メイリオ", Meiryo, sans-serif;
+  color: #2d2f33;
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+  padding: 0;
+}
+.content_top {
+  height: 80vh;
+  background-image: url("../image/top.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.content_about {
+  margin: 0 5vw;
+  padding: 90px 0;
+}
+.content_vision {
+  margin: 0 5vw;
+  padding: 90px 0;
+  background-color: #f7f8f8;
+}
+.content_feature {
+  margin: 0 5vw;
+  padding: 90px 0;
+}
+.content_usage {
+  margin: 0 5vw;
+  padding: 90px 0;
+  background-color: #f7f8f8;
+}
+.content_mind {
+  margin: 0 5vw;
+  padding: 90px 0;
+}
+.content_company {
+  margin: 0 5vw;
+  padding: 90px 0;
+  background-color: #f7f8f8;
+}
+.sub_title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 1.8;
+  letter-spacing: 0.08em;
+}
+.sub_title strong {
+  position: relative;
+  z-index: 0;
+  font-weight: normal;
+}
+.sub_title strong:before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  z-index: -1;
+  display: inline-block;
+  width: 90%;
+  height: 20px;
+  border-bottom: solid 20px #fff100;
+  margin-left: 5%;
+}
+
+.text {
+  line-height: 2;
+  letter-spacing: 0.05em;
+  color: #40434a;
+}
+
+.flex {
+  list-style: none;
+  display: flex;
+}
+.flex .three {
+  width: 30%;
+  margin: 0 30px;
+}
+.flex .five {
+  width: 20%;
+  margin: 0 30px;
+}
+.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid #2d2f33;
+  text-align: center;
+  line-height: 160px;
+  margin: 0 auto;
+}
+.company_info {
+  margin: 0 auto;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  color: #40434a;
+  width: 700px;
+}
+
+.company_info_list {
+  border-bottom: solid 1px #e8e8e8;
+  margin-top: 16px;
+  padding-bottom: 16px;
+}
+.company_info_title {
+  display: inline-block;
+  vertical-align: top;
+}
+.company_info_text {
+  display: inline-block;
+  vertical-align: top;
+}
